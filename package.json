@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "yuque-hexo clean && yuque-hexo sync && hexo clean && hexo generate",
+    "start": "yuque-hexo clean && hexo clean && hexo generate",
     "build": "hexo generate",
     "clean": "hexo clean",
     "deploy": "hexo deploy",
@@ -16,22 +16,13 @@
     "hexo": "^6.0.0",
     "hexo-generator-archive": "^1.0.0",
     "hexo-generator-category": "^1.0.0",
-    "hexo-generator-index": "^1.0.0",
+    "hexo-generator-index": "^2.0.0",
     "hexo-generator-tag": "^1.0.0",
-    "hexo-renderer-ejs": "^1.0.0",
-    "hexo-renderer-marked": "^3.0.0",
-    "hexo-renderer-stylus": "^1.1.0",
-    "hexo-server": "^1.0.0",
-    "hexo-theme-next": "^8.8.2",
-    "yuque-hexo": "^1.6.5"
-  },
-  "yuqueConfig": {
-    "baseUrl": "https://www.yuque.com/api/v2",
-    "login": "zhanyeye",
-    "repo": "blog",
-    "mdNameFormat": "title",
-    "postPath": "source/_posts/yuque",
-    "adapter": "hexo",
-    "onlyPublished": false
+    "hexo-renderer-ejs": "^2.0.0",
+    "hexo-renderer-marked": "^4.0.0",
+    "hexo-renderer-stylus": "^2.0.0",
+    "hexo-server": "^2.0.0",
+    "hexo-theme-next": "^8.8.2"
   }
 }
+
